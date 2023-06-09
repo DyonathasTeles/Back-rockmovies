@@ -6,8 +6,7 @@
 The APP in Node.js is an application developed during the course of Explorer at Rocketseat.
 With the purpose of being a Back-end challenge, where in this APP we make a way to register users, notes and tags for each user. 
 
-
-## 🛠 Habilidades
+## 🛠 Skills
 
 - Node.JS
 - JavaScript
