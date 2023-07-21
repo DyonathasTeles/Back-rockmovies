@@ -1,5 +1,5 @@
 const knex = require("../database/knex")
-const DiskStorage = require("../providers/diskStorage.js")
+const DiskStorage = require("../providers/diskStorage")
 const AppError = require("../utils/AppError")
 
 class UserAvatarController {
