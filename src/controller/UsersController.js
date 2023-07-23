@@ -20,7 +20,7 @@ class usersController {
       throw new AppError(" this email is already registered! ")
     }
 
-    const hashPassword = await hash(password, 15)
+    const hashPassword = await hash(password, 4)
 
     await database.run("INSERT INTO users (name, email, password) VALUES (?, ?, ?)", [name, email, hashPassword])
   
